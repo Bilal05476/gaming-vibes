@@ -1,8 +1,8 @@
 exports.handler = async (event, context) => {
   const guides = [
-    { title: "lorem", author: "Bilal" },
-    { title: "lorem", author: "Ahmed" },
-    { title: "lorem", author: "Ali" },
+    { title: "React Guide", author: "Bilal" },
+    { title: "Next Guide", author: "Ahmed" },
+    { title: "Node Guide", author: "Ali" },
   ];
   if (context.clientContext.user) {
     return {
