@@ -13,7 +13,7 @@ exports.handler = async (event, context) => {
   return {
     statusCode: 401,
     body: JSON.stringify({
-      message: "ah,ah,ah you must be logged in to see this",
+      message: "Ah,ah,ah you must be logged in to see this",
     }),
   };
 };
